@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Registrazione</title>
+</head>
+<body>
+    <h2>Area Utenti</h2>
+    <h3>Accedi</h3>
+    <form action="login_utente.php" method="GET">
+        <label for="username_utente">Username:</label><br>
+        <input type="text" id="username_utente" name="username_utente"><br>
+        <label for="password_utente">Password:</label><br>
+        <input type="password" id="password_utente" name="password_utente"><br><br>
+        <input type="submit" value="Accedi">
+    </form>
+
+    <h3>Registrati</h3>
+    <p>Se non hai un account, <a href="process_order.html">registrati qui</a>.</p>
+
+    <h2>Area Gestore Biblioteca</h2>
+    <h3>Accedi</h3>
+    <form action="login_gestore.php" method="GET">
+        <label for="username_gestore">Username:</label><br>
+        <input type="text" id="username_gestore" name="username_gestore"><br>
+        <label for="password_gestore">Password:</label><br>
+        <input type="password" id="password_gestore" name="password_gestore"><br><br>
+        <input type="submit" value="Accedi">
+    </form>
+</body>
+</html>
